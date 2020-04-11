@@ -1,5 +1,5 @@
 import os
-from Fkask_Script import Manager
+from Flask_Script import Manager
 from flask_migrate import Migrate, MigrateCommand
 
 from app import app, db
